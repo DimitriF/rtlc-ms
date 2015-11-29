@@ -13,7 +13,7 @@ require("baseline")
 require("prospectr")
 library(plyr)
 library(abind)
-options(shiny.maxRequestSize=1000*1024^2)
+options(shiny.maxRequestSize=1000*1024^2)   
 
 source('mass2R.R')
 source('f.plot.array.R')
